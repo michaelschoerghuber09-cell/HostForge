@@ -1,4 +1,5 @@
 # HostForge
+<<<<<<< HEAD
 
 Cross-platform **Minecraft server management** application for Windows, Linux
 and macOS.
@@ -92,3 +93,6 @@ npm run tauri:build
 ## License
 
 _TBD_
+=======
+A self hosted server management platform designed to simplify the setup, confiquration, and management of Minecraft servers an interface.
+>>>>>>> 10bfb83af1588b55d6a0a81bb2cd913b4b116d6c
