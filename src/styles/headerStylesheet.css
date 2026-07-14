@@ -1,0 +1,27 @@
+.HaeaderTabs {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.dropdownmenu {
+    position: relative;
+    display: inline-block;
+}
+
+.dropDownOpt {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    flex-direction: column;
+}
+
+.dropdownmenu:hover .dropDownOpt {
+    display: flex;
+}
+
+.dropDownOpt a, button {
+    white-space: nowrap;
+    display: block;
+}
