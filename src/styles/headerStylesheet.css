@@ -1,7 +1,33 @@
-.HaeaderTabs {
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.HeaderTabs {
+    background-color: #121314;
     display: flex;
     flex-direction: row;
-    gap: 20px;
+}
+
+.HeaderTabs a,
+.HeaderTabs button {
+    all: unset;
+    margin-left: 20px;
+    border: none;
+    padding: 4px 8px;
+    font: inherit;
+    color: gray;
+    border-radius: 0px;
+    transition: background-color 0.15s ease;
+    display: block;
+}
+
+.HeaderTabs a {
+    cursor: default;
+}
+
+.HeaderTabs button:hover {
+    background-color: #2a2d30
 }
 
 .dropdownmenu {
@@ -10,18 +36,27 @@
 }
 
 .dropDownOpt {
+    background-color: #2a2d30;
     display: none;
     position: absolute;
     top: 100%;
     left: 0;
     flex-direction: column;
+    margin-left: 20px;
 }
 
 .dropdownmenu:hover .dropDownOpt {
     display: flex;
 }
 
-.dropDownOpt a, button {
+.dropDownOpt a:hover,
+.dropDownOpt button:hover {
+    background-color: #1f2123;
+}
+
+.dropDownOpt a,
+.dropDownOpt button {
     white-space: nowrap;
     display: block;
+    box-sizing: border-box;
 }
