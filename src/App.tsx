@@ -14,6 +14,7 @@ import Dashboard from "./pages/Dashboard";
 import Backups from "./pages/Backups";
 import UsedPorts from "./pages/UsedPorts";
 import CreateServer from "./pages/SetUpServer/CreateServer";
+import ServerList from "./pages/ServerList";
 
 function LayoutWithHeader() {
   return (
@@ -38,7 +39,8 @@ function App() {
             <Route path="/new-server" element={<NewServer />} />
             <Route path="/create-server" element={<CreateServer/>}/>
             <Route path="/settings-page" element={<Settings />} />
-            <Route path="/backup-page" element={<Backups/>}></Route>
+            <Route path="/backup-page" element={<Backups />} />
+            <Route path="/server-list" element={<ServerList />} />
           </Route>
           <Route path="/importServer-page" element={<ImportServer />} />
           <Route path="/view-ports" element={<UsedPorts/>} />

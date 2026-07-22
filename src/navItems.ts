@@ -9,7 +9,7 @@ export interface NavItem {
 
 export const navItems: NavItem[] = [
   { path: "/dashboard-page", label: "Dashboard", icon: Home },
-  { path: "/new-server", label: "Neuer Server", icon: Server },
+  { path: "/server-list", label: "Servers", icon: Server },
   { path: "/settings-page", label: "Einstellungen", icon: Settings },
   { path: "/backup-page", label: "Backups", icon: Archive },
 ];

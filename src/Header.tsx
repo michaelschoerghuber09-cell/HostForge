@@ -69,7 +69,6 @@ function ToolsDropDownMenu() {
                     {/*See the log of current server */}
                     <Link to={"/dashboard-page"}>Log Viewer</Link>
                     <Link to={"/backup-page"}>Backup Manager</Link>
-
                 </div>
             </div>
         </nav>

@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react";
 import getAllVersions from "./getAllVersions";
+
+{/*ToDo: Create a stylesheet and and add png to the server options and add an next button to download the jar you selected and to configure your server*/}
+
 {/*Here you can select what kind of minecraft server you want to create*/}
 
 export default function NewServer() {
