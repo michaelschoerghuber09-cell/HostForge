@@ -23,7 +23,7 @@ function FileDropDownMenu() {
                 <button className="dropdownBtn">File</button>
 
                 <div className="dropDownOpt">
-                    <Link to="/new-server">New Server</Link>
+                    <Link to="/create-server">Create Server</Link>
                     <button onClick={() => openNewWindow(1024, 768, "/importServer-page", "Import Server", "import-server")}>Import Server</button>
                     <Link to="/settings-page">Settings</Link>
                     <button onClick={() => exit(0)}>Beenden</button>

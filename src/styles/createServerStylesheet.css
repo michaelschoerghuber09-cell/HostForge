@@ -1,0 +1,32 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.createServerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+
+.createServerBtn {
+    all: unset;
+    margin-left: 20px;
+    border: none;
+    padding: 4px 8px;
+    font: inherit;
+    border-radius: 6px;
+    background-color: #008000;
+    display: block;
+    cursor: default;
+    transition: filter 0.15s ease, transform 0.1s ease;
+}
+
+.createServerBtn:hover {
+    filter: brightness(1.15);
+}

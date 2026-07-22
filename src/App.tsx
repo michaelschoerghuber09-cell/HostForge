@@ -7,12 +7,13 @@
 import { HashRouter, Routes, Route, Outlet, Navigate } from "react-router-dom";
 import Header from './Header';
 import SideBar from './SideBar'
-import NewServer from "./pages/NewServer";
+import NewServer from "./pages/SetUpServer/NewServer";
 import Settings from "./pages/Settings";
 import ImportServer from "./pages/importServer";
 import Dashboard from "./pages/Dashboard";
 import Backups from "./pages/Backups";
 import UsedPorts from "./pages/UsedPorts";
+import CreateServer from "./pages/SetUpServer/CreateServer";
 
 function LayoutWithHeader() {
   return (
@@ -35,6 +36,7 @@ function App() {
             <Route path="/" element={<Navigate to="/dashboard-page" replace />} />
             <Route path="/dashboard-page" element={<Dashboard />} />
             <Route path="/new-server" element={<NewServer />} />
+            <Route path="/create-server" element={<CreateServer/>}/>
             <Route path="/settings-page" element={<Settings />} />
             <Route path="/backup-page" element={<Backups/>}></Route>
           </Route>
